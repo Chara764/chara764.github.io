@@ -1,58 +1,77 @@
 body {
-    font-family: sans-serif;
+  font-family:rockwell;
 }
 
-header img{
-    padding: 5px;
+header {
+  background-color: #5ccccc;
+  padding: 40px 0px 40px 25px;
 }
 
-header{
-    background-color: darkslateblue;
-    padding: 5px;
+.link-header {
+  background-color: #9FEE00;
+  padding: 5px 10px 5px 10px;
+  font-size: 36px;
+  text-decoration: none;
 }
 
-header a{
-    color: black;
-    font-size: 25px;
-    background-color: orange;
-    border-radius: 5px; 
-    font-weight: 1;
-    text-decoration: none;
+nav {
+  padding: 35px 40px 0px 40px;
 }
 
- main h1{
-    text-align: center;
-}
-nav img{
-    padding: 10px;
-}
-
-h2{
-    color: red;
-    margin: 10px;
+.link-nav {
+  color: black;
+  font-size: 24px;
+  margin-right: 35px;
+  text-decoration: none;
+  border-bottom: 2px solid black;
 }
 
-h2 img{
-    padding: 10px;
+h1 {
+  text-align: center;
+  color: #2AB428;
+  font-size: 96px;
 }
 
-ul{
-    list-style: url(https://learn.algoritmika.org/uploads/2021/01/Arrow%201_0_1611261359.svg);
-    margin: 10px;
+p {
+  font-size: 24px;
+  margin-left: 60px;
 }
 
-li h2{
-    color: black;
+ul {
+  font-size: 24px;
+  list-style: url("https://mars.algoritmika.org/uploads/2021/04/Arrow%201_0_1618309609.png");
+  margin-left: 60px;
 }
 
-.ter{
-    border-top: 5px solid black;
-    border-bottom:5px solid black ;
-    padding: 20px;
+li {
+  margin-bottom: 20px;
 }
 
-footer{
-    background-color:darkslateblue;
-    color: white;
-    padding: 10px;
+ol {
+  font-size: 24px;
+  margin-left: 60px;
+}
+
+.text-big {
+  font-size: 48px;
+  margin-left: 60px;
+}
+  
+.link-text {
+  color: blue;
+  text-decoration: none;
+  border-bottom: 2px solid blue;
+}
+
+h2 {
+  color: #006363;
+  font-size: 64px;
+}
+
+footer {
+  padding: 65px 0px 80px 80px;
+}
+
+.social {
+  margin-right: 60px;
 }
